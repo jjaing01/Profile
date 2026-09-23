@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[이름] · Game Server Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 상단 네비게이션 -->
+  <header class="navbar">
+    <div class="nav-logo">&lt;/DevName&gt;</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 히어로 섹션: 이름 / 직무 / 한 줄 소개 -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <p class="hero-greeting">// Hello, World</p>
+      <h1 class="hero-title">[이름]</h1>
+      <h2 class="hero-subtitle">
+        <span id="typing-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        대규모 트래픽을 견디는 안정적인 게임 서버와,<br>
+        끊김 없는 플레이 경험을 만드는 게임 프로그래머입니다.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+        <a href="#contact" class="btn btn-outline">연락하기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 기술 스택 -->
+  <section class="skills" id="skills">
+    <h2 class="section-title">Tech Stack</h2>
+    <p class="section-sub">// 게임 클라이언트 & 서버 개발에 사용하는 기술들</p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <ul>
+          <li>C / C++</li>
+          <li>C#</li>
+          <li>Python</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Game Engine</h3>
+        <ul>
+          <li>Unreal Engine</li>
+          <li>Unity</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Server / Network</h3>
+        <ul>
+          <li>TCP / UDP Socket Programming</li>
+          <li>Multi-threading / Async I/O</li>
+          <li>실시간 동기화, 매치메이킹</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Database / Infra</h3>
+        <ul>
+          <li>MySQL / Redis</li>
+          <li>Docker</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git / GitHub</li>
+          <li>Jenkins / CI-CD</li>
+          <li>Jira / Confluence</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 프로젝트 -->
+  <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">// 직접 설계하고 개발한 게임/서버 프로젝트</p>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-thumb">🎮</div>
+        <h3>[프로젝트명 1]</h3>
+        <p class="project-role">실시간 멀티플레이 서버</p>
+        <p class="project-desc">
+          [프로젝트 설명을 입력하세요. 예: N명 동시 접속을 지원하는
+          실시간 대전 게임 서버를 설계 및 구현했습니다.]
+        </p>
+        <ul class="project-tags">
+          <li>C++</li>
+          <li>TCP</li>
+          <li>Multi-thread</li>
+        </ul>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Demo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb">🕹️</div>
+        <h3>[프로젝트명 2]</h3>
+        <p class="project-role">게임 클라이언트</p>
+        <p class="project-desc">
+          [프로젝트 설명을 입력하세요. 예: Unreal Engine 기반
+          3인칭 액션 게임의 전투 시스템을 개발했습니다.]
+        </p>
+        <ul class="project-tags">
+          <li>Unreal Engine</li>
+          <li>C++</li>
+          <li>Blueprint</li>
+        </ul>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Demo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb">⚙️</div>
+        <h3>[프로젝트명 3]</h3>
+        <p class="project-role">서버 인프라</p>
+        <p class="project-desc">
+          [프로젝트 설명을 입력하세요. 예: Docker/Redis 기반
+          매치메이킹 시스템을 구축했습니다.]
+        </p>
+        <ul class="project-tags">
+          <li>Redis</li>
+          <li>Docker</li>
+          <li>Python</li>
+        </ul>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 경력/이력 -->
+  <section class="experience" id="experience">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">// 경력 및 활동</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">[YYYY.MM - 현재]</div>
+        <div class="timeline-body">
+          <h3>[회사명 / 소속]</h3>
+          <p class="timeline-role">[직무 - 예: 게임 서버 프로그래머]</p>
+          <p class="timeline-desc">[담당 업무 및 성과를 입력하세요.]</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">[YYYY.MM - YYYY.MM]</div>
+        <div class="timeline-body">
+          <h3>[학교 / 부트캠프 / 이전 소속]</h3>
+          <p class="timeline-role">[전공 또는 과정]</p>
+          <p class="timeline-desc">[관련 활동을 입력하세요.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 연락처 -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-sub">// 함께 일하고 싶으시다면 연락 주세요</p>
+
+    <div class="contact-links">
+      <a href="mailto:example@email.com" class="contact-link">
+        <span class="contact-icon">✉️</span> example@email.com
+      </a>
+      <a href="https://github.com/jjaing01" target="_blank" class="contact-link">
+        <span class="contact-icon">💻</span> GitHub
+      </a>
+      <a href="#" target="_blank" class="contact-link">
+        <span class="contact-icon">🔗</span> LinkedIn
+      </a>
+      <a href="#" target="_blank" class="contact-link">
+        <span class="contact-icon">📄</span> 이력서 (PDF)
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 [이름]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
